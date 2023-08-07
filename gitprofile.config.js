@@ -52,13 +52,20 @@ const config = {
     {
       company: 'Microsoft',
       position: 'Data Center Technician II',
-      from: 'September 2021',
+      from: '2021',
       to: '2022',
       companyLink: 'https://microsoft.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
+      company: 'CN Wire',
+      position: '',
+      from: 'July 2019',
+      to: 'August 2021',
+      companyLink: 'https://example.com',
+    },
+    {
+      company: 'Schneider Electric',
+      position: '',
       from: 'July 2019',
       to: 'August 2021',
       companyLink: 'https://example.com',
