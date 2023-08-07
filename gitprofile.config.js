@@ -81,13 +81,31 @@ const config = {
   ], */
   education: [
     {
-      institution: 'El Paso Community College',
-      degree: 'Associate',
-      from: '2015',
-      to: '2019',
+      institution: 'University of Texas at El Paso',
+      degree: 'Electrical Engineering',
+      from: '2007',
+      to: '2008',
     },
     {
-      institution: 'Institution Name',
+      institution: 'El Paso Community College',
+      degree: 'Associate Mechanical Engineering',
+      from: '2008',
+      to: '2009',
+    },
+    {
+      institution: 'University of Texas at El Paso',
+      degree: 'Electrical Engineering',
+      from: '2015',
+      to: '2017',
+    },
+    {
+      institution: 'El Paso Community College',
+      degree: 'Associate Computer Electrical Engineering',
+      from: '2012',
+      to: '2013',
+    },
+    {
+      institution: 'University of Texas at El Paso',
       degree: 'Degree',
       from: '2012',
       to: '2014',
