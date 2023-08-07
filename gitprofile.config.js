@@ -10,6 +10,7 @@ const config = {
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
+
   social: {
     linkedin: '',
     twitter: '',
@@ -28,10 +29,12 @@ const config = {
     phone: '',
     email: 'chris@chriscelaya.xyz',
   },
+
   resume: {
     fileUrl:
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
+
   skills: [
     'PHP',
     'Laravel',
@@ -58,27 +61,83 @@ const config = {
     },
     {
       company: 'CN Wire',
-      position: '',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      position: 'Electro-mechanical Technician',
+      from: '2018',
+      to: '2022',
+      companyLink: 'https://cnwire.com',
     },
     {
       company: 'Schneider Electric',
+      position: 'Wiring Technician | QA Inspector',
+      from: '2016',
+      to: '2017',
+      companyLink: 'https://schneiderelectric.com',
+    },
+    {
+      company: 'Self Employed',
       position: '',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      from: '2015',
+      to: '2022',
+      companyLink: '',
+    },
+    {
+      company: 'Delfingen',
+      position: 'Industrial Maintenance Mechanic',
+      from: '2015',
+      to: '2016',
+      companyLink: 'https://delfingen.com/en/',
+    },
+    {
+      company: 'Dal-Tile',
+      position: 'Industrial Hydraulic Technician',
+      from: '2012',
+      to: '2015',
+      companyLink: 'https://www.daltile.com/',
+    },
+    {
+      company: 'Trans Communications',
+      position: 'Cable Technician',
+      from: '2012',
+      to: '2012',
+      companyLink: '',
     },
   ],
-  /* certifications: [
+
+
+  certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
+      name: 'NFPA 70E - Electrical Safety',
+      body: 'Requirements for safe work practices Electrical Wiring, Panel Inspection & Critical Facilities',
+      year: '2022',
+      link: ''
     },
-  ], */
+    {
+      name: 'OSHA 10 - Construction Safety',
+      body: 'Health Hazards Focus Four, Handling Hazards, Employer Responsibilities, Hand and Power Tool Hazards',
+      year: '2022',
+      link: ''
+    },
+    {
+      name: 'Build Your First Blockchain - Udemy',
+      body: 'Concepts and intuitions, building chains, creating currency and contracts',
+      year: '2018',
+      link: ''
+    },
+    {
+      name: 'Blockchain & Bitcoin Fundamentals - Udemy',
+      body: 'Fundamentals blockchain, bitcoin, contracts, cryptocurrencies, tokens',
+      year: '2018',
+      link: ''
+    },
+    {
+      name: 'Master Ethereum & Solidity Programming - Udemy',
+      body: 'Blockchain, contract compilation and deployment',
+      year: '2018',
+      link: ''
+    },
+  ],
+
+
   education: [
     {
       institution: 'University of Texas at El Paso',
@@ -93,12 +152,6 @@ const config = {
       to: '2009',
     },
     {
-      institution: 'University of Texas at El Paso',
-      degree: 'Electrical Engineering',
-      from: '2015',
-      to: '2017',
-    },
-    {
       institution: 'El Paso Community College',
       degree: 'Associate Computer Electrical Engineering',
       from: '2012',
@@ -110,6 +163,20 @@ const config = {
       from: '2012',
       to: '2014',
     },
+    {
+      institution: 'University of Texas at El Paso',
+      degree: 'Electrical Engineering',
+      from: '2015',
+      to: '2017',
+    },
+    {
+      institution: 'El Paso Community College',
+      degree: 'Associate Computer Science',
+      from: '2023',
+      to: '2024',
+    },
+    
+    
   ],
 
   // To hide the `My Projects` section, keep it empty.
