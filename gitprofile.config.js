@@ -12,7 +12,7 @@ const config = {
   },
 
   social: {
-    linkedin: '',
+    linkedin: 'christophercelaya',
     twitter: '',
     mastodon: '',
     facebook: '',
@@ -36,20 +36,19 @@ const config = {
   },
 
   skills: [
-    'PHP',
-    'Laravel',
+    'Java',
     'JavaScript',
     'React.js',
     'Node.js',
-    'Nest.js',
-    'MySQL',
+    'Next.js',
     'PostgreSQL',
     'Git',
     'Docker',
-    'PHPUnit',
+    'PHP',
     'CSS',
-    'Antd',
+    'HTML',
     'Tailwind',
+    'Python',
   ],
   experiences: [
     {
@@ -188,6 +187,12 @@ const config = {
       link: 'https://youtu.be/fW6c3pb60kE',
     },
     {
+      title: 'Law-GPT',
+      description: `Apple watch enabled with OpenAi, features streaming, and voice to text.`,
+      imageUrl: '',
+      link: 'https://youtu.be/19iWJPfot6k',
+    },
+    {
       title: 'UniMe',
       description: `Connecting NFT's and crypto currency through Metamask and Unity, enabling players to own, trade, and monetize unique in-game web3 wallets, characters, and assets securely.`,
       imageUrl: '',
@@ -218,7 +223,7 @@ const config = {
       link: 'https://www.instagram.com/p/CcZm_2yjeuY/?utm_source=ig_web_copy_link',
     },
     {
-      title: 'Varavyshka.com',
+      title: 'Varavyshka',
       description: `Created a flower eCommerce store with my colleague in Russia. Site is down due to recent events.`,
       imageUrl: '',
       link: 'http://varavyshka.com/',
@@ -279,7 +284,7 @@ const config = {
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
